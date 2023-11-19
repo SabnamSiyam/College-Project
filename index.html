@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>new-year-new-me</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="max-w-max  mx-auto bg-red-100 mt-5">
+
+  <!-- banner section -->
+
+  <div class=" h-[600px]  bg-no-repeat w-auto bg-center" style="background-image: url('/images/banner/MunPoly-2.png');">
+    <!-- Navbar -->
+    <section class="pt-10 w-2/4 mx-auto rounded-2xl">
+      <div class="navbar bg-base-100 my-36 rounded-2xl shadow-2xl glass ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+              </svg>
+            </label>
+
+          </div>
+        </div>
+        <div class="navbar-center">
+          <a onclick="returnHomme()" class="btn btn-ghost text-3xl font-bold text-blue-400 font-sans ">Team-3</a>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+              </svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class=" grid grid-cols-2 gap-10 mt-20 ">
+        <button class="btn glass shadow h-20 rounded-xl text-3xl font-semibold uppercase text-red-300 "
+          onclick="Genius()">Geometry
+          Genius</button>
+        <button onclick="studentBank()"
+          class="btn glass shadow h-20 rounded-xl text-3xl font-semibold uppercase text-red-300">Student Bank
+        </button>
+      </div>
+  </div>
+  </section>
+
+  <main class="bg-red-100 rounded-2xl max-w-[80%] mx-auto shadow-2xl">
+
+    <!-- My plans section -->
+
+    <h3 class="text-center text-blue-400 text-4xl font-bold pt-3   my-10">My Plans</h3>
+    <div class="grid grid-cols-4 gap-5 max-w-[80%] mx-auto py-7 rounded-2xl ">
+      <div class="shadow-2xl p-4 rounded-2xl">
+        <img class="ms-5" src="/images/icons/web.png" alt="" />
+        <p class="text-xl font-bold ">Web Development</p>
+        <p class="text-cyan-600 ">I want to learn web Development.</p>
+      </div>
+      <div class="shadow-2xl p-4 rounded-2xl">
+        <img src="/images/icons/js.png" alt="" />
+        <p class="text-xl font-bold">Javascript</p>
+        <p class="text-cyan-600 ">I want to learn Javascript.</p>
+      </div>
+      <div class="shadow-2xl p-4 rounded-2xl">
+        <img class="ms-3" src="/images/icons/smoke.png" alt="" />
+        <p class="text-xl font-bold">Smoking Habit</p>
+        <p class="text-cyan-600 ">
+          Actually I don't have any kind of smoking habit.So I'm already
+          quite heathy.
+        </p>
+      </div>
+      <div class="shadow-2xl p-4 rounded-2xl">
+        <img src="/images/icons/ecom.png" alt="" />
+        <p class="text-xl font-bold">ecommerce</p>
+        <p class="text-cyan-600 ">
+          I want to develop Ecommerce websites and learn more about
+          Ecommerce.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  
+  <footer class="text-center  py-7 ">
+    <h3 class="text-3xl italic text-bold text-cyan-800 p-3">
+      &copy 2023 All rights reserved by Sabnam & Team-3
+    </h3>
+    <h4 class="text-2xl italic text-bold text-red-400">Computer Science & Technology (4th)</h4>
+  </footer>
+  <script src="/js/index.js"></script>
+  <script src="/js/logout.js"></script>
+  <script src="home.js"></script>
+  
+</body>
+
+</html>
+
+<!--  Made with tailwind css framework -->
